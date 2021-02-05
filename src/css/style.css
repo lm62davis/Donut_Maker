@@ -1,0 +1,6 @@
+body {
+  background-color: rgb(214, 191, 164);
+  background-image: url("/src/images/fancydonuts.jpg");
+  background-repeat: repeat-x;
+  text-align: center;
+}
