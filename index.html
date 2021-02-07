@@ -12,24 +12,47 @@
 
 <body>
     <h1>Bob the Baker Baking Company</h1>
-    <nav>
-        <!-- <ul>
-            <li>About Bob the Baker Baking Company</li>
-            <li>Donut Maker, inspired by Cookie Clicker</li>
-            <li>About the Developer</li>
-        </ul> -->
-    </nav>
-    <p class="donutCount">Display Donut Count</p>
-    <div class="donutMaker"><button class="makeDonutButton">Make the Donuts</button></div>
-    <div class="autoClicker"><button class="autoClickerButton">Buy AutoClicker</button></div>
-    <div class="clickMultiplier"><button class="buyMultiplier">Buy Multiplier</button></div>
-    <div class="reset"><button class="resetGame">Reset Game</button></div>
-    <div class="container">
-        <div class="anchor"></div>
+    <div class="dropdown">
+        <button class="dropdown">MENU</button>
+        <div class="dropdown-content">
+            <a href="/bob.html">About Bob the Baker Baking Company</a>
+            <a href="https://orteil.dashnet.org/cookieclicker/">Donut Maker is inspired by Cookie Clicker</a>
+            <a href="/contact.html">About the Developer</a>
+        </div>
     </div>
 
-    <!-- <script src="/src/js/DonutMaker.js" type="module"></script> -->
-    <script src="./src/js/app.js"></script>
+    <h3>Current Donut Count:</h3>
+    <h3 class="donutCount">Display Donut Count</h3>
+    <div class="donutMaker"><button class="makeDonutButton">Make the Donuts</button></div>
+    <br>
+
+    <div class="fixed">
+        <h3>Multipliers Purchased:</h3>
+        <div class="multiplierCount">Multiplier Count</div>
+        <h3>AutoClickers Purchased:</h3>
+        <div class="autoClickerCount">Auto Clicker Count</div>
+    </div>
+
+    <h3>Increase productivity by purchasing a Multiplier. <br>
+        The current cost in donuts is:</h3>
+    <div class="multiplierCost">Multiplier Cost</div>
+    <div class="clickMultiplier"><button class="buyMultiplier">Buy Multiplier</button></div>
+
+
+
+    <h3>Purchase an Auto Clicker. Then you'll REALLY be making the donuts! 
+        <br>
+        The current cost in donuts is:</h3>
+    <div class="autoClickerCost">Auto Clicker Cost</div>
+    <div class="autoClicker"><button class="autoClickerButton">Buy AutoClicker</button></div>
+
+    <br>
+    <br>
+    <div class="reset"><button class="resetGame">Reset Game</button></div>
+
+
+    <script src="./src/js/app.js" type="module"></script>
+    <!-- <script src="./src/js/DonutMaker.js"></script> -->
 </body>
 
 </html>

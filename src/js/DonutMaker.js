@@ -1,6 +1,8 @@
 
 
-class DonutMaker {
+//NOTE: I started with this .js file but opted to keep it all on the app.js file, instead.
+
+export class DonutMaker {
 
     constructor() {
         this.clickCount = 0;
@@ -33,8 +35,4 @@ class DonutMaker {
         }
     };
 };
-
-// export {
-//     DonutMaker
-// }
 
