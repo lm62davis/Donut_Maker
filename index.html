@@ -1,14 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
+
+</html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module 4 Project</title>
+    <link href="src/css/style.css" rel="stylesheet" />
+    <title>Bob the Baker Baking Company</title>
 </head>
+
 <body>
-    <div class="container">
-        <div class="anchor"></div>
+    <h1>Bob the Baker Baking Company</h1>
+    <div class="dropdown">
+        <button class="dropdown">MENU</button>
+        <div class="dropdown-content">
+            <a href="/bob.html">About Bob the Baker Baking Company</a>
+            <a href="https://orteil.dashnet.org/cookieclicker/">Donut Maker is inspired by Cookie Clicker</a>
+            <a href="/contact.html">About the Developer</a>
+        </div>
     </div>
-    <script src="/src/app.js"></script>
+
+    <div class="fixed2">
+        <h3>Current Donut Count:</h3>
+        <h2 class="donutCount">Display Donut Count</h2>
+        <br>
+        <audio controls loop>
+            <source src="src/sound/jeopardy.mp3" type="audio/mpeg">
+            Your browser does not support this audio element.
+        </audio>
+    </div>
+    <br>
+
+    <div class="fixed">
+        <h3>Multipliers Purchased:</h3>
+        <h3 class="multiplierCount">Multiplier Count</h3>
+        <h3>AutoClickers Purchased:</h3>
+        <h3 class="autoClickerCount">Auto Clicker Count</h3>
+    </div>
+    <br>
+    <br>
+    <div class="donutMaker"><button class="makeDonutButton">Make the Donuts</button></div>
+
+    <h3>Increase productivity by purchasing a Multiplier. <br>
+        The current cost in donuts is:</h3>
+    <h3 class="multiplierCost">Multiplier Cost</h3>
+    <div class="clickMultiplier"><button class="buyMultiplier">Buy Multiplier</button></div>
+    <br>
+    <h3>Purchase an Auto Clicker. Then you'll REALLY be making the donuts!
+        <br>
+        The current cost in donuts is:
+    </h3>
+    <h3 class="autoClickerCost">Auto Clicker Cost</h3>
+    <div class="autoClicker"><button class="autoClickerButton">Buy AutoClicker</button></div>
+
+    <br>
+    <br>
+    <div class="reset"><button class="resetGame">Reset Game</button></div>
+
+
+    <script src="./src/js/app.js" type="module"></script>
+    <!-- <script src="./src/js/DonutMaker.js"></script> -->
 </body>
+
 </html>
